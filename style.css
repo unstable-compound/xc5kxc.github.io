@@ -1,0 +1,15 @@
+.basic-grid-container{
+  display: grid;
+}
+.two-col-container{
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* for ease of building the layout, but remove later */
+section, footer, div, header{
+  background: gray;
+  margin: 4pt;
+  padding: 5pt;
+  border-style: solid;
+}
