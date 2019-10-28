@@ -4,10 +4,17 @@
 .two-col-container{
   grid-template-columns: 1fr 1fr;
 }
+.two-rows{
+  grid-template-rows: 1fr 1fr;
+}
+.four-col{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
 
 
 /* for ease of building the layout, but remove later */
-section, footer, div, header{
+section, footer, header{
   background: gray;
   margin: 4pt;
   padding: 5pt;
