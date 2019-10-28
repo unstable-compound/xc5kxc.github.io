@@ -14,7 +14,7 @@
 
 
 /* for ease of building the layout, but remove later */
-section, footer, header{
+section, footer, div, header{
   background: gray;
   margin: 4pt;
   padding: 5pt;
