@@ -394,17 +394,18 @@
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">Portfolio Website</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Developed While Learning CSS3 & HTML5
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Developed While Learning CSS3 & HTML5
                 </h6>
                 <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum
                 </p>
                 <a href="#!" class="card-link">Card link</a>
                 <a href="#!" class="card-link">Another link</a>
@@ -412,19 +413,21 @@
             </div>
             <div class="card">
               <div class="card-body">
-                <h4 class="card-title">Buddies: Buddy Finder Web Application</h4>
-                <h6 class="card-subtitle mb-2 text-muted">Group Project in CS465-Full Stack Web Dev
-
+                <h4 class="card-title">
+                  Buddies: Buddy Finder Web Application
+                </h4>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Group Project in CS465-Full Stack Web Dev
                 </h6>
                 <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum
                 </p>
                 <a href="#!" class="card-link">Card link</a>
                 <a href="#!" class="card-link">Another link</a>
@@ -434,8 +437,53 @@
         </div>
       </section>
 
-      <section class="row">
-        <div class="col">contact me</div>
+      <section class="row" id="contact-me">
+        <div class="col-12">
+          <div class="border p-4 justify-content-center">
+            <header>
+              <h3 class="text-center">CONTACT ME</h3>
+            </header>
+            <form action="my-handling-form-page" method="post">
+              <div class="form-group">
+                <label for="name">Name</label><br />
+                <input
+                  type="text"
+                  ,
+                  id="name"
+                  name="first_name"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="mail">Email</label><br />
+                <input
+                  type="email"
+                  ,
+                  id="mail"
+                  name="user-mail"
+                  class="form-control"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="comment">Message</label><br />
+                <textarea
+                  id="comment"
+                  name="message"
+                  class="form-control"
+                  placeholder="Your Message"
+                >
+                </textarea>
+              </div>
+
+              <div class="buttons">
+                <button class="btn-primary" type="submit">Submit</button>
+                <button class="btn-secondary" type="reset">Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
 
       <footer class="row">
