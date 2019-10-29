@@ -10,15 +10,44 @@
       crossorigin="anonymous"
     />
     <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/boot
-  strap.min.js"
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
     ></script>
   </head>
 
   <body>
     <div class="container">
       <!-- bootstrap container.  -->
+
+      <div class="jumbotron">
+        <h1 class="display-3">Hello, world!</h1>
+        <p class="lead">
+          This is a simple hero unit, a simple jumbotron-style component for
+          calling extra attention to featured content or information.
+        </p>
+        <hr class="my-2" />
+        <p>
+          It uses utility classes for typography and spacing to space content
+          out within the larger container.
+        </p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#!" role="button"
+            >Some action</a
+          >
+        </p>
+      </div>
+
       <header class="row">
         <div class="col">header</div>
       </header>
@@ -87,12 +116,70 @@
                     <h4 class="card-title">
                       TCSS - CS333 Intro to Operating Systems
                     </h4>
-                    <p class="card-text">
-                      This is my current job. In this capacity I help
-                      undergraduates to understand the material they need for
-                      CS333, and help them to debug and problem solve with their
-                      homework projects.
-                    </p>
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#exampleModalScrollable"
+                    >
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal"
+                      id="exampleModalScrollable"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="exampleModalScrollableLabel"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-scrollable"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="exampleModalCenteredLabel"
+                            >
+                              Modal title
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="card-text">
+                              This is my current job. In this capacity I help
+                              undergraduates to understand the material they
+                              need for CS333, and help them to debug and problem
+                              solve with their homework projects.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal ends-->
                   </div>
                 </div>
                 <div class="card">
@@ -101,44 +188,217 @@
                     <h4 class="card-title">
                       Firmware Engineering Intern - MECOP
                     </h4>
-                    <p class="card-text">
-                      At HP Inc. I developed an end to end solution for the MSB
-                      R&D team to use for memory management on their ULE
-                      LaserJet products. The feature I developed simplified the
-                      process of managing tables in memory and reduced the
-                      codesize of the ULE product's firmware, which operates in
-                      a very constrained memory-environment. In addition, the
-                      feature enabled a vital security process to run on the ULE
-                      products.
-                    </p>
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#exampleModalScrollable"
+                    >
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal"
+                      id="exampleModalScrollable"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="exampleModalScrollableLabel"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-scrollable"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="exampleModalCenteredLabel"
+                            >
+                              Modal title
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="card-text">
+                              At HP Inc. I developed an end to end solution for
+                              the MSB R&D team to use for memory management on
+                              their ULE LaserJet products. The feature I
+                              developed simplified the process of managing
+                              tables in memory and reduced the codesize of the
+                              ULE product's firmware, which operates in a very
+                              constrained memory-environment. In addition, the
+                              feature enabled a vital security process to run on
+                              the ULE products.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-body">
                     <h3 class="card-title">PSU</h3>
                     <h4 class="card-title">TCSS - CS162, CS163, and CS202</h4>
-                    <p class="card-text">
-                      In this capacity I helped undergraduates to understand
-                      basic computing principles as well as helping them to
-                      learn to use C++ and Java to effectively solve problems.
-                    </p>
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#exampleModalScrollable"
+                    >
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal"
+                      id="exampleModalScrollable"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="exampleModalScrollableLabel"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-scrollable"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="exampleModalCenteredLabel"
+                            >
+                              Modal title
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="card-text">
+                              In this capacity I helped undergraduates to
+                              understand basic computing principles as well as
+                              helping them to learn to use C++ and Java to
+                              effectively solve problems.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-body">
                     <h3 class="card-title">Mt. Hood Community College</h3>
                     <h4 class="card-title">IT Assistant</h4>
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo conse
-                    </p>
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-toggle="modal"
+                      data-target="#exampleModalScrollable"
+                    >
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal"
+                      id="exampleModalScrollable"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="exampleModalScrollableLabel"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-scrollable"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title"
+                              id="exampleModalCenteredLabel"
+                            >
+                              Modal title
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="card-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit, sed do eiusmod tempor incididunt ut labore
+                              et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut
+                              aliquip ex ea commodo conse
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
