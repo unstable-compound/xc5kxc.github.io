@@ -18,11 +18,14 @@ body{
 }
 
 /* for ease of building the layout, but remove later */
+/*
 section, footer, header{
   background: gray;
   margin: 4pt;
   padding: 5pt;
   border-style: solid;
 }
+*/
+
 
 
